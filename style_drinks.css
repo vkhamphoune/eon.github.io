@@ -1,0 +1,137 @@
+body {font-family:'Montserrat', sans-serif;
+    font-size: 18pt;
+    background-color: #F8F4F1;}
+
+header {height: 120px;
+    background-color: #623A1D;
+    color: #FFFFFF;
+    position: fixed;
+    display:flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;}
+
+.header {width: 1000px;
+    align-items: center;
+    justify-content: center;}
+
+.headerleft {display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    float: left;
+    top: 23px;}
+
+.headerright {float: right;}
+
+
+a {text-decoration: none;}
+
+
+footer {background-color: #623A1D;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;}
+
+footer section {width: 200px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;}
+
+.floatleft {float: left;}
+
+.floatleft p {font-size: 10pt;}
+
+
+h1 {font-size: 100pt;
+    font-family: 'Satisfy', cursive;
+    color:#ffffff;}
+
+.banner {display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;}
+
+h2 {font-family:'Montserrat', semibold;
+    font-size: 14pt;
+    color: #623A1D;}
+
+/*=drinks=*/
+
+.homebanner {display: flex;}
+
+article {width:800px;
+    margin: auto;
+    border: 2px solid #623A1D;
+    color: #623A1D;}
+
+article h1 {font-family:'Montserrat', bold;
+    font-size: 18pt;
+    color: #623A1D;
+text-align: center;}
+
+.espresso img {width: 150px; 
+height: 150px;}
+
+.espresso p {font-size: 9pt;}
+
+.frappe img {width: 150px; 
+height: 150px;}
+
+.frappe p {font-size: 9pt;}
+
+.hot img {width: 150px; 
+height: 150px;}
+
+.hot p {font-size: 9pt;}
+
+.iced img {width: 150px; 
+height: 150px;}
+
+.iced p {font-size: 9pt;}
+
+.tea img {width: 150px; 
+height: 150px;}
+
+.tea p {font-size: 9pt;}
+
+.smoothies img {width: 150px; 
+height: 150px;}
+
+.smoothies p {font-size: 9pt;}
+
+/*=menutable=*/
+
+.menutable p {font-size: 10pt;
+padding-left: 5px;}
+
+.menutable h3 {font-size: 12pt;
+padding-left: 5px;
+text-decoration: none;}
+
+.menutable {
+    width:150px;
+    border: 2px solid #623A1D;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: left;
+    color: #623A1D;}
+
+/*=button=*/
+
+button {background-color: #623A1D;
+font-family:'Montserrat', sans-serif;
+font-size: 10pt;
+color: #ffffff;
+width: 150px;
+display: block;
+margin-bottom: 10px;}
+
