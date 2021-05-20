@@ -2,33 +2,47 @@ body {font-family:'Montserrat', sans-serif;
     font-size: 18pt;
     background-color: #F8F4F1;}
 
+/*=header=*/
+
 header {height: 95px;
+    font-size: 15pt;
     background-color: #623A1D;
     color: #FFFFFF;
     position: fixed;
-    display:flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    align-items: center;
-    justify-content: center;}
+    top: 0px;
+    left: 0px;
+    width: 100%;}
 
-.header {width: 95px;
-    align-items: center;
-    justify-content: center;}
+nav {display: grid;
+    grid-template-columns: 7% 60% 32%;}
 
-.headerleft {display:flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    float: left;
-    top: 23px;}
+nav div {display: flex;
+    align-content: center;
+    padding: 13px;}
 
-.headerright {float: right;}
-
+nav a {color:#ffffff;
+    padding-left: 20px;
+    line-height: 375%;}
 
 a {text-decoration: none;}
 
+.headerright {float: right;}
+
+.floatleft {float: left;
+font-size: 14pt;}
+
+.floatright {float: right;
+font-size: 14pt;}
+
+.clear {clear: both;}
+
+#logo {padding-right: 0px;
+    width: 75px;}
+
+.icons {padding-right: 7px;
+    width: 15px;}
+
+/*=footer=*/
 
 footer {background-color: #623A1D;
     color: #FFFFFF;
@@ -37,196 +51,19 @@ footer {background-color: #623A1D;
     margin: auto;
     overflow: auto;
     display: grid;
-    grid-template-columns: 33% 33% 33%;}
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;}
 
-footer section {width: 200px;
+footer section {width: 300px;
     padding: 40px;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: auto;}
 
-.floatleft {float: left;}
+.alignleft {text-align: left;}
 
-.floatleft p {font-size: 10pt;}
-
-
-h1 {font-size: 100pt;
-    font-family: 'Satisfy', cursive;
-    color:#ffffff;}
-
-.banner {width: 400px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;}
-
-h2 {font-family:'Montserrat', semibold;
-    font-size: 14pt;
-    color: #623A1D;}
-
-#title {grid-column: 1/4;}
-
-
-/*=items/descriptions=*/
-
-.homebanner {display: flex;}
-
-article {width:800px;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 2px solid #623A1D;
-    color: #623A1D;}
-
-article h1 {font-family:'Montserrat', bold;
-    font-size: 18pt;
-    color: #623A1D;
-text-align: center;}
-
-#espresso {display:grid;
-grid-template-columns: 33% 33% 33%;}
-
-.espresso img {width: 150px; 
-height: 150px;}
-
-.espresso p {font-size: 9pt;}
-
-#espressofrappe {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4;}
-
-.frappe img {width: 150px; 
-height: 150px;}
-
-.frappe p {font-size: 9pt;}
-
-#hotdrinks {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.hot img {width: 150px; 
-height: 150px;}
-
-.hot p {font-size: 9pt;}
-
-#icedrinks {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.iced img {width: 150px; 
-height: 150px;}
-
-.iced p {font-size: 9pt;}
-
-#hottea {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.tea img {width: 150px; 
-height: 150px;}
-
-.tea p {font-size: 9pt;}
-
-#smoothies {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.smoothies img {width: 150px; 
-height: 150px;}
-
-.smoothies p {font-size: 9pt;}
-
-#sandwich {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4;}
-
-.sandwich img {width: 150px; 
-height: 150px;}
-
-.sandwich p {font-size: 9pt;}
-
-#salad {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.salad img {width: 150px; 
-height: 150px;}
-
-.salad p {font-size: 9pt;}
-
-#wrap {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.wrap img {width: 150px; 
-height: 150px;}
-
-.wrap p {font-size: 9pt;}
-
-#cookie {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.cookie img {width: 150px; 
-height: 150px;}
-
-.cookie p {font-size: 9pt;}
-
-#cheesecake {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.cheesecake img {width: 150px; 
-height: 150px;}
-
-.cheesecake p {font-size: 9pt;}
-
-#croissant {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.croissant img {width: 150px; 
-height: 150px;}
-
-.croissant p {font-size: 9pt;}
-
-#danish {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.danish img {width: 150px; 
-height: 150px;}
-
-.danish p {font-size: 9pt;}
-
-#scone{display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.scone img {width: 150px; 
-height: 150px;}
-
-.scone p {font-size: 9pt;}
-
-#otis {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-
-.otis p {font-size: 9pt;}
-
-.otis img {width: 150px; 
-height: 150px;}
-
-#bagel {display:grid;
-grid-template-columns: 33% 33% 33%;
-grid-column: 1/4}
-
-.bagel img {width: 150px; 
-height: 150px;}
-
-.bagel p {font-size: 9pt;}
-
+.alignright {justify-content: flex-end;}
 
 /*=menutable=*/
 
@@ -234,17 +71,233 @@ height: 150px;}
 padding-left: 5px;}
 
 .menutable h3 {font-size: 12pt;
-padding-left: 5px;
-text-decoration: none;}
+padding-left: 5px;}
+
+.menutable a:visited {color: #623A1D;}
+
+.menutable a:hover {color: #D9BE9B;}
 
 .menutable {
     width:150px;
     border: 2px solid #623A1D;
-    margin-bottom: 25px;
-    margin-top: 25px;
     text-align: left;
     color: #623A1D;
 float: left;}
+
+/*=banner=*/
+
+h1 {font-size: 100pt;
+    font-family: 'Satisfy', cursive;
+    color:#ffffff;}
+
+.homebanner {background-image:url(menu-banner.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 95px;}
+
+/*=sectiontitle=*/
+
+h2 {font-family:'Montserrat', semibold;
+    font-size: 14pt;
+    color: #623A1D;}
+
+#title {grid-column: 1/4;
+margin-left: 55px;}
+
+/*=items/descriptions=*/
+
+article {width:800px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    border: 2px solid #623A1D;
+    color: #623A1D;}
+
+article h1 {font-family:'Montserrat', bold;
+    font-size: 25pt;
+    color: #623A1D;
+text-align: center;
+margin-bottom: 5px;}
+
+#espresso {display:grid;
+grid-template-columns: 33% 33% 33%;}
+
+.espresso img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.espresso p {font-size: 9pt;
+text-align: center;}
+
+#espressofrappe {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.frappe img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.frappe p {font-size: 9pt;
+text-align: center;}
+
+#hotdrinks {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.hot img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.hot p {font-size: 9pt;
+text-align: center;}
+
+#icedrinks {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.iced img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.iced p {font-size: 9pt;
+text-align: center;}
+
+#hottea {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.tea img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.tea p {font-size: 9pt;
+text-align: center;}
+
+#smoothies {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.smoothies img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.smoothies p {font-size: 9pt;
+text-align: center;}
+
+#sandwich {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.sandwich img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.sandwich p {font-size: 9pt;
+text-align: center;}
+
+#salad {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.salad img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.salad p {font-size: 9pt;
+text-align: center;}
+
+#wrap {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.wrap img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.wrap p {font-size: 9pt;
+text-align: center;}
+
+#cookie {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.cookie img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.cookie p {font-size: 9pt;
+text-align: center;}
+
+#cheesecake {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.cheesecake img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.cheesecake p {font-size: 9pt;
+text-align: center;}
+
+#croissant {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.croissant img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.croissant p {font-size: 9pt;
+text-align: center;}
+
+#danish {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.danish img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.danish p {font-size: 9pt;
+text-align: center}
+
+#scone {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.scone img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.scone p {font-size: 9pt;
+text-align: center;}
+
+#otis {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.otis img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.otis p {font-size: 9pt;
+text-align: center;}
+
+#bagel {display:grid;
+grid-template-columns: 33% 33% 33%;
+grid-column: 1/4;}
+
+.bagel img {width: 150px; 
+height: 150px;
+margin-left: 55px;}
+
+.bagel p {font-size: 9pt;
+text-align: center;}
 
 /*=button=*/
 
@@ -254,5 +307,7 @@ font-size: 10pt;
 color: #ffffff;
 width: 150px;
 display: block;
-margin-bottom: 10px;}
+margin-bottom: 10px;
+margin-top: 25px;}
 
+button:hover {background-color: #96613A;}
