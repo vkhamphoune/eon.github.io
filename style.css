@@ -73,9 +73,12 @@ padding-left: 5px;}
 .menutable h3 {font-size: 12pt;
 padding-left: 5px;}
 
-.menutable a:visited {color: #623A1D;}
+.menutable a:visited {color: 96613A;}
 
-.menutable a:hover {color: #96613A;}
+.menutable a {color: #96613A;
+}
+
+.menutable a:hover {color: #623A1D;}
 
 .menutable {
     width:150px;
