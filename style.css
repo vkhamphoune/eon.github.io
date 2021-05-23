@@ -73,8 +73,6 @@ padding-left: 5px;}
 .menutable h3 {font-size: 12pt;
 padding-left: 5px;}
 
-.menutable a:visited {color: 96613A;}
-
 .menutable a {color: #96613A;
 }
 
@@ -84,9 +82,10 @@ padding-left: 5px;}
     width:150px;
     border: 2px solid #623A1D;
     text-align: left;
-    color: #623A1D;
+    color: #96613A;
     background-color: #FFFFFF;
-float: left;}
+float: left;
+margin-left: 100px;}
 
 /*=banner=*/
 
@@ -314,8 +313,11 @@ font-size: 10pt;
 color: #ffffff;
 width: 150px;
 display: block;
-margin-bottom: 10px;
-margin-top: 25px;}
+margin-bottom: 15px;
+margin-top: 15px;
+margin-left: 100px;}
+
+#ubereats {margin-top: 35px;}
 
 button:hover {background-color: #96613A;}
 
