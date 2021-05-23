@@ -75,13 +75,14 @@ padding-left: 5px;}
 
 .menutable a:visited {color: #623A1D;}
 
-.menutable a:hover {color: #D9BE9B;}
+.menutable a:hover {color: #96613A;}
 
 .menutable {
     width:150px;
     border: 2px solid #623A1D;
     text-align: left;
     color: #623A1D;
+    background-color: #FFFFFF;
 float: left;}
 
 /*=banner=*/
@@ -118,11 +119,12 @@ article {width:800px;
     padding-bottom: 25px;
     border: 2px solid #623A1D;
     color: #623A1D;
+    background-color: #FFFFFF;
 overflow: auto;}
 
 article h1 {font-family:'Montserrat', bold;
     font-size: 25pt;
-    color: #623A1D;
+    color: #96613A;
 text-align: center;
 margin-bottom: 5px;}
 
